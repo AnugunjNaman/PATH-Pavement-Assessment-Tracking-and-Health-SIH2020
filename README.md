@@ -15,3 +15,8 @@
     2. Model Training in process.
     3. Presentation in Progress.
     4. Further UI Details need to be discussed
+
+
+
+## (OLD)Model Link:
+    [LINK](https://drive.google.com/drive/folders/1HI6R_7IFlY6ijW5hQcnhSytTA8dkUQJx?usp=sharing)

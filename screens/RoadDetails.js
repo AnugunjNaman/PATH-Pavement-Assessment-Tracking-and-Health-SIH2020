@@ -10,7 +10,7 @@ const RoadDetails = ({navigation, route}) => {
     const [modal, setModal] = useState(false);
     const [enableShift, setEnableShift] = useState(false);
     
-    const ngrok_url = "http://bfafd210d3cf.ngrok.io"
+    const ngrok_url = "http://34bxkr2342zz.ngrok.io"
     const flask_url = "http://ef868a77ba28.ngrok.io/predict"
     const getDetails = (type) => {
         if(route.params){

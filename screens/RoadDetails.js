@@ -10,7 +10,7 @@ const RoadDetails = ({navigation, route}) => {
     const [modal, setModal] = useState(false);
     const [enableShift, setEnableShift] = useState(false);
     
-    const ngrok_url = "http://34bxkr2342zz.ngrok.io"
+    const ngrok_url = "http://9aae676fb9da.ngrok.io"
     const flask_url = "http://ef868a77ba28.ngrok.io/predict"
     const getDetails = (type) => {
         if(route.params){
@@ -186,7 +186,7 @@ const RoadDetails = ({navigation, route}) => {
                 damageImgUrls.push(data.damageImageUrl)
                 console.log(damageImgUrls)
                 setDamageImageUrls(damageImgUrls)
-                setPCI(data.pci)
+                setPCI(Math.ceil((data.pci + pci*(imgUrls.length - 1))/imgUrls.Length));
                 setModal(false);
                 Alert.alert("Image uploaded and analysis done.")
 

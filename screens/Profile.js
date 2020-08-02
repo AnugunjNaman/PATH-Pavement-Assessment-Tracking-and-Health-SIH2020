@@ -6,7 +6,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 const Profile = (props) => {
     const { _id, roadNumber, roadName, fromChainage, toChainage, roadLength, from, to, pci, location, numImage, imageUrls, damageImageUrls, timeCreated, timeModified} = props.route.params.item;
-    const ngrok_url = "http://34bxkr2342zz.ngrok.io";
+    const ngrok_url = "http://9aae676fb9da.ngrok.io";
     const deleteRoad = () => {
         fetch(`${ngrok_url}/delete`, {
             method:"POST",

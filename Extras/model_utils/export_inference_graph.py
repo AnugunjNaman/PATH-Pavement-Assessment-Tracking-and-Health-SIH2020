@@ -30,6 +30,7 @@ specified option.
     serialized TFExample protos. Image resolutions are expected to be the same
     if more than 1 image is provided.
 
+
 and the following output nodes returned by the model.postprocess(..):
   * `num_detections`: Outputs float32 tensors of the form [batch]
       that specifies the number of valid boxes per image in the batch.
@@ -138,7 +139,6 @@ tf.app.flags.mark_flag_as_required('pipeline_config_path')
 tf.app.flags.mark_flag_as_required('trained_checkpoint_prefix')
 tf.app.flags.mark_flag_as_required('output_directory')
 FLAGS = flags.FLAGS
-
 
 def main(_):
   pipeline_config = pipeline_pb2.TrainEvalPipelineConfig()

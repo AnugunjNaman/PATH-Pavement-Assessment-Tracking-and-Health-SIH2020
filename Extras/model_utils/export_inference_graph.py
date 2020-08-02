@@ -30,6 +30,7 @@ specified option.
     serialized TFExample protos. Image resolutions are expected to be the same
     if more than 1 image is provided.
 
+
 and the following output nodes returned by the model.postprocess(..):
   * `num_detections`: Outputs float32 tensors of the form [batch]
       that specifies the number of valid boxes per image in the batch.

@@ -17,6 +17,7 @@ import io
 import pandas as pd
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
+
 import sys
 sys.path.append("../../models/research")
 
@@ -103,6 +104,7 @@ def main(_):
     path = os.path.join(os.getcwd(), FLAGS.img_path)
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
+    
     for group in grouped:
         tf_example = create_tf_example(group, path)
         writer.write(tf_example.SerializeToString())

@@ -1,11 +1,7 @@
 
 # Steps to Run Locally:
 
-- Clone [this](https://github.com/fizyr/keras-retinanet.git) repository
-- `cd keras-retinanet`
-- `python -m pip install .`
-- if this error  comes `error: command 'gcc' failed with exit status 1`
-- install this first `conda install -c conda-forge fbprophet` or via pip.
+- Install this first `conda install -c conda-forge fbprophet` or via pip.
 - __requirements installation__:
      - make a virtual environment -
          * `pip install virtualenv`
@@ -24,7 +20,7 @@
             * leave this folder empty, output will get saved here.
 
 - Place the `flask_server.py` also in the cloned repo's folder.
-- [Link to the trained model(250 Mb)](https://drive.google.com/file/d/1N1ZazBRPI-tt4iG4Jt-MhyTWW8aQREDQ/view?usp=sharing)
+- [Link to the Trained model](https://drive.google.com/file/d/1wDPMs-oruB8TvRZZWYMDSpdBt_ROcPZ1/view?usp=sharing)
 
 
 
